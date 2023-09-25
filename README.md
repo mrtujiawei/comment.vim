@@ -16,7 +16,7 @@ let g:comment_auto_create = 1
 
 " 显示搞笑的注释(暂未实现)
 let g:comment_show_fun = 1
-
-" 添加 <C-i> 插入注释
-let g:comment_auto_map = 1
 ```
+<!-- 添加 <C-i> 插入注释 -->
+<!-- 快捷键冲突 -->
+<!-- let g:comment_auto_map = 1 -->

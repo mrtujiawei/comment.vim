@@ -15,6 +15,7 @@ if !exists('g:comment_auto_create') || g:comment_auto_create != 0
   command! -n=0 -bar CommentCreate call comment#create()
 endif
 
-if !exists('g:comment_auto_map') || g:comment_auto_map != 0
-  noremap <silent> <C-i> :call comment#create()<Enter>
-endif
+" 和原本的快捷键冲突了
+" if !exists('g:comment_auto_map') || g:comment_auto_map != 0
+"   noremap <silent> <C-i> :call comment#create()<Enter>
+" endif
